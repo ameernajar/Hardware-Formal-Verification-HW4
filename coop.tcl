@@ -7,6 +7,9 @@ reset rst
 # Don't change anything above this line.
 
 # Put the abstractions for the proof of <embedded>::wrap.valid_id here.
+abstract -counter {wrap.calculator_i.cnt wrap.calculator_i.len wrap.generator_i.cnt wrap.generator_i.len}
+stopat wrap.calculator_i.res
+
 
 # Don't change anything below this line.
 
